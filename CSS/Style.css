@@ -1,0 +1,308 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    margin: 0;
+}
+/* Navigation Bar */
+header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    position:sticky;
+    top: 0%;
+    z-index: 1;
+}
+.navbar {
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h3 {
+    font-size: 16px;
+}
+.navbar h3 span {
+    background-color: #222;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    color: #0879d1;
+}
+button {
+    background-color: #0879d1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056a3;
+}
+/* Main Container */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+/* Hero Section */
+.hero {
+    background-color: #e4f3f6;
+    padding: 30px;
+    border-radius: 8px;
+}
+.hero h5 {
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.hero h1 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+.hero p {
+    color: #555;
+    font-size: 14px;
+}
+.hero button {
+    margin-top: 5px;
+}
+/* Upcoming Events */
+.events {
+    margin-top: 40px;
+}
+.event-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.event-heading h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.event-heading p {
+    color: #666;
+    font-size: 14px;
+}
+.event-heading a {
+    color: #0879d1;
+    text-decoration: none;
+}
+/* Event Cards */
+.cards {
+    display: flex;
+    gap: 15px;
+}
+.card {
+    width: 33.33%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/* Card Heading Colors */
+.tech {
+    background: linear-gradient(to right, #1769aa, #0798c9);
+}
+.culture {
+    background: linear-gradient(to right, #bd456a, #dc91a8);
+}
+.sports {
+    background: linear-gradient(to right, #087f55, #39b879);
+}
+.tech,
+.culture,
+.sports {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+/* Card Content */
+.content {
+    padding: 15px;
+}
+#a{
+    background: linear-gradient(to right, #1769aa, #0798c9);
+    color: #e5edf3;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+#b{
+    background: linear-gradient(to right, #bd456a, #dc91a8);
+    color: #e5edf3;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+#c{
+    background: linear-gradient(to right, #087f55, #39b879);
+    color: #e5edf3;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+.content h3 {
+    font-size: 16px;
+    margin-top: 15px;
+}
+.content p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    color: #222;
+}
+.container {
+    width: 75%;
+    margin: 30px auto;
+}
+/* Section Headings */
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+/* Event Categories */
+.categories {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+.categories-section{
+    background-color: #e4f3f6;
+    padding: 1px 16px;
+    border-radius: 9px;
+    margin: 24px auto 0;
+    max-width: 1500px;
+}
+.categories div {
+    background-color: white;
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 1;
+}
+/* Event Schedule Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-bottom: 25px;
+}
+th {
+    background-color: #0784d1;
+    color: white;
+    text-align: left;
+    padding: 14px;
+}
+td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f0f8ff;
+}
+
+/* Registration Form */
+.registration {
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.registration p {
+    font-size: 13px;
+    margin-top: 15px;
+}
+.agreement{
+    display:flex ;
+}
+
+.agreement label{
+    margin-top:8px;
+}
+
+/* Buttons */
+button {
+    background-color: #0879d1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056a3;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h3 {
+    font-size: 15px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 13px;
+}
+

@@ -1,0 +1,36 @@
+h1{
+    color: rgb(0, 0, 0);
+    background-color: gold;
+}
+h2{
+    color: black;
+    background-color: rgb(223, 23, 23);
+}
+p{
+    cursor: pointer;
+    color: black;
+    background-color: gold;
+}
+li{
+    color:black;
+    background-color: darkred;
+}
+table{
+    color: black;
+    background-color: crimson;
+}
+form{
+    color: navajowhite;
+    background-color: black;
+}
+div{
+    color: blue;
+}
+.One{
+    color: rgb(0, 0, 0);
+    background-color: gold;
+} 
+#btn{
+    color: rgb(0, 0, 0);
+    background-color: gold;
+}
